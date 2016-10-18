@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <title>todoList</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <a><p id="cache">pldplddpldpl</p></a>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-btn">Add comment</button>
+    <div class="w3-container">
+
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+          <header class="w3-container w3-teal">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="w3-closebtn">&times;</span>
+            <h2>Add your comment</h2>
+          </header>
+          <div class="w3-container" align="center">
+
+            <p><input type="text" id="inputHTML" placeholder="Insert your todo"/></p>
+          </div>
+          <footer class="w3-container  w3-teal" align="center">
+            <button id="addHTML" class="w3-btn">Add your text</button>
+            <input type="radio">Important</input>
+            <input type="radio">Aujourd'hui</input>
+            <input type="radio">A faire</input>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+
+    <ul id="insertHTML" class="content"></ul>
+
+    <script type="text/javascript" src="./js/style.js"></script>
+  </body>
+</html>
