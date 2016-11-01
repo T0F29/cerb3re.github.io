@@ -1,23 +1,150 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<title>Infos page</title>
-</html>
-<body style="font-family:Open Sans">
-	<header align="center">
-		<h1>Tanguy CHENIER</h1>
-	</header>
-	<section>
-		<nav>
-			<h1>Travaux en cours :: AFPA - Session 2016</h1>
-			<h2><p><a href="todos/index.html">Todo List</a></p><h2>
-			<h1>A venir</h1>
-			<h2><p>Amélioration de la Todo List</p></h2>
-			<h2><p>Implémentation d'un C.V. en ligne<p></h2>
-		</nav>
-	<section>
-	<footer>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Git Public Profil</title>
+    <style>
+    body {
+        background-image: url('./img/globalBcg.jpg');
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 19pt;
+        /* font-weight: 300; */
+        line-height: 1.75em;
+        color: #888;
+        line-height: 1;
+    }
+    #nav
+    {
+      border-top: 1px dashed white;
+      border-bottom: 1px dashed white;
+    }
+    #nav ul li a span
+    {
+      position: relative;
+      display: block;
+      font-size: 0.8em;
+    }
 
-	</footer>
-</body>
+    html, body, div, span, li
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    a:hover {
+        color: #E27689;
+        border-bottom-color: rgba(255, 255, 255, 0);
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+        -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+        -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+        -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+        transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+        outline: 0;
+    }
+    user agent stylesheet
+
+
+    user agent stylesheet
+
+    ol, ul {
+        list-style: none;
+    }
+
+    #nav ul li a span:before {
+        position: absolute;
+        left: 0;
+        color: #41484c;
+        text-align: center;
+        width: 1.25em;
+        line-height: 1.75em;
+    }
+    .icon:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        font-size: 1.25em;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    #navLeft {
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -moz-justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -ms-justify-content: space-between;
+        justify-content: space-between;
+        background: #222629 url(images/overlay.png);
+        box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+        color: #fff;
+        height: 100%;
+        left: 0;
+        overflow-y: auto;
+        position: fixed;
+        /* text-align: right; */
+        top: 0;
+        width: 255px;
+    }
+    #image
+    {
+      border-radius: 70px;
+      border: 1px dashed  white;
+    }
+    #logo
+    {
+      margin: 40px;
+      font-size: 0.7em;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="navLeft">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span><img  id="image"src="./img/perso.png"></span>
+							<h1>Tanguy CHENIER</h1>
+							<p>Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+              <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Who am I</a></li>
+              <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Projets</a></li>
+              <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Contact</a></li>
+
+            	</ul>
+						</nav>
+				</div>
+
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="label">Facebook</span></a></li>
+						</ul>
+
+				</div>
+			</div>
+      <section>
+        <div id="block"></div>
+      </section>
+  </body>
+</html>
