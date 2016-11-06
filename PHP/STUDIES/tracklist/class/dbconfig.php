@@ -1,7 +1,8 @@
 <?php
+// just a test
 define('SQL_INIT', 'mysql:host=localhost; dbname=AFPA');
 //database Username
-define('SQL_USERNAME', 'root');
+define('SQL_USERNAME', 'test');
 //database Password
 define('SQL_PASSWORD', '');
 
@@ -16,14 +17,15 @@ catch(PDOException $e)
 {
   echo 'Error: ' . $e->getMessage();
 }
+// endOf: Just a test
 ?>
 <?php
 class Database
 {
-    private $host = "localhost";
-    private $db_name = "afpa";
-    private $username = "root";
-    private $password = "";
+    private $host = "YOUR_HOST";
+    private $db_name = "YOUR_DATABASE";
+    private $username = "YOUR_USERNAME_DATABASE";
+    private $password = "YOUR_PASSWORD_DATABASE";
     public  $conn;
 
     public function dbConnection()
