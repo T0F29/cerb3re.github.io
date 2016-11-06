@@ -1,4 +1,4 @@
 tchenier
 User class is used for create 
 Login/Register & Session relative to the users.
-Also this class is used to Log Out and check is the user is log-in.
+Also this class is used to Log Out and check if user is log-in.
