@@ -50,6 +50,6 @@
             echo "\n";
         }
     }
-$test = new Color( array('rgb' => 12345));
+$test = new Color(array('rgb' => 12345));
 echo $test;
 ?>
