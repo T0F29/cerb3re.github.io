@@ -13,9 +13,9 @@ Coming soon:
 <pre><code>
 #HOW TO:
 1. Import:
-	1.1 sql_input/dblogin.sql
-	1.2 sql_input/tracklist.sql
-- Configure:
+	..* sql_input/dblogin.sql
+	..* sql_input/tracklist.sql
+2. Configure:
 	./class/dbconfig.php with your proper data.
-- Launch your website
+3. Launch your website
 </code></pre>
