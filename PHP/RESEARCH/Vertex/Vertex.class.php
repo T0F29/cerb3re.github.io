@@ -1,5 +1,5 @@
 <?php
-require_once('../Color.class.php');
+require_once('../Color_Creation/Color.class.php');
 
 class Vertex
 {
