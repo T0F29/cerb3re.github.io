@@ -13,11 +13,11 @@ Coming soon:
 - Admin panel
 <hr />
 <pre>HOW TO:</pre>
-<pre><code>
+<code>
 - Import:
 	 sql_input/dblogin.sql,
 	 sql_input/tracklist.sql
 - Configure:
 	./class/dbconfig.php with your proper data.
 - Launch your website
-</code></pre>
+</code>
