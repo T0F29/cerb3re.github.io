@@ -13,8 +13,8 @@ Coming soon:
 <pre><code>
 #HOW TO:
 1. Import:
-	..1. sql_input/dblogin.sql
-	..* sql_input/tracklist.sql
+	 > sql_input/dblogin.sql,
+	 > sql_input/tracklist.sql
 2. Configure:
 	./class/dbconfig.php with your proper data.
 3. Launch your website
