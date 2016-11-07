@@ -55,10 +55,6 @@
                   {
                     if (isset($_POST['newSong']) && isset($_POST['newStyle']) && isset($_POST['newDuration']))
                     {
-                        $sql = new PDO(SQL_INIT, SQL_USERNAME, SQL_PASSWORD);
-                        $uploaddir  = "/var/www/html/perso.tracklist_Class/";
-                        $uploadfile = $uploaddir . basename($_FILES['img']['name']);
-
                         $req = $sql->prepare('UPDATE tracklist SET
                           song = :newSong,
                           style = :newStyle,
@@ -75,6 +71,7 @@
                     }
                     else {
                       $delete = "DELETE FROM tracklist WHERE id=" . $printMenu['id'];
+                      unlink('./upload/'.$printMenu['img']);
                       $sql->exec($delete);
                       echo '<div id="top">Your track is now remove :/<br /> This page gonna re-actualise in 2 secondes</div>';
                     }
@@ -98,6 +95,8 @@
                             <th>
                               Duration
                             </th>
+                            <th>image</th>
+                            <th></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -109,6 +108,9 @@
                           </td>
                           <td>
                             <input id="btnModify" type="text" placeholder="<?php echo $printMenu['duration'] . " minutes"; ?>" value="<?php echo $printMenu['duration']; ?>" name="newDuration"/>
+                          </td>
+                          <td>
+                            <img src="upload/<?php echo $printMenu['img']; ?>" width="100%"/>
                           </td>
                           <td>
                             <button id="btnModify" name="<?php echo $printMenu['id'] ?>">Modify Song</button>
