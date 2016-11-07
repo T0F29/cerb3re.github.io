@@ -10,12 +10,10 @@
             $uniqid = uniqid();
             $target_path = "upload/".$uniqid.'_';
             $target_path = $target_path . basename( $_FILES['img']['name']);
-
+            $imgInsert =  basename( $_FILES['img']['name']);
             if(move_uploaded_file($_FILES['img']['tmp_name'], $target_path)) {
                 echo "The file ".  basename( $_FILES['img']['name']).
                 " has been uploaded";
-                $imgInsert =  basename( $_FILES['img']['name']);
-                echo $uniqid.$imgInsert;
             } else{
                 echo "There was an error uploading the file, please try again!";
             }
