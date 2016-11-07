@@ -7,3 +7,13 @@ integrate a playlist system, login & register system.
 Coming soon:
 - Paradigme Optimization
 - Refactoring
+- Image input gestion
+- Admin panel 
+------------------------
+HOW TO:
+- Import:
+	./sql_input/dblogin.sql
+	./sql_input/tracklist.sql
+- Configure:
+	./class/dbconfig.php with your proper data.
+- Launch your website
