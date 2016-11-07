@@ -9,12 +9,12 @@ Coming soon:
 - Refactoring
 - Image input gestion
 - Admin panel 
-------------------------
+<hr />
 <pre><code>
-HOW TO:
-- Import:
-	./sql_input/dblogin.sql
-	./sql_input/tracklist.sql
+#HOW TO:
+1. Import:
+	1.1 sql_input/dblogin.sql
+	1.2 sql_input/tracklist.sql
 - Configure:
 	./class/dbconfig.php with your proper data.
 - Launch your website
