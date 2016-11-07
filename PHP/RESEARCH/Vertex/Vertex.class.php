@@ -17,7 +17,7 @@ class Vertex
 			$this->_x = $xyzc['x'];
 			$this->_y = $xyzc['y'];
 			$this->_z = $xyzc['z'];
-			if (isset($xyzc['w']) && !empty($xyzc['']))
+			if (isset($xyzc['w']) && !empty($xyzc['w']))
 				$this->_w = $xyzc['w'];
 			if (isset($xyzc['color']) && !empty($xyzc['color']) && $xyzc['color'] instanceof Color)
 				$this->_color = $xyzc['color'];
