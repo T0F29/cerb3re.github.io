@@ -108,7 +108,7 @@ else if(isset($_GET['joined']))
 							<input id="btnModify" type="text" placeholder="Choose a name" name="txt_uname" value="<?php if(isset($error)){echo $uname;}?>"/>
 						</td>
 						<td>
-							<input id="btnModify" type="text" placeholder="Choose a password"  name="txt_upass" />
+							<input id="btnModify" type="password" placeholder="Choose a password"  name="txt_upass" />
 						</td>
 						<td>
 							<input id="btnModify" type="text" placeholder="Enter your email"  name="txt_umail" value="<?php if(isset($error)){echo $umail;}?>" />

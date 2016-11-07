@@ -20,7 +20,7 @@ if(isset($_POST['btn-login']))
 	}
 	else
 	{
-		$error = '<img src="./images/error.gif" style="width:100%;"/>';
+		$error = '<img src="./view/images/error.gif" style="width:100%;"/>';
 	}
 }
 ?>
