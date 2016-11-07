@@ -10,6 +10,7 @@ Coming soon:
 - Image input gestion
 - Admin panel 
 ------------------------
+<pre><code>
 HOW TO:
 - Import:
 	./sql_input/dblogin.sql
@@ -17,3 +18,4 @@ HOW TO:
 - Configure:
 	./class/dbconfig.php with your proper data.
 - Launch your website
+</code></pre>
