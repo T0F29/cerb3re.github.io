@@ -1,4 +1,11 @@
 <?php
+/* ************************************************************************** */
+/*                                                                            */
+/*                 profile.php for tracklist                                  */
+/*                 Created on : Mon Nov 7 17:37:41 2016	                      */
+/*                 Made by : Tanguy "cerb3re" CHENIER 				                */
+/*                                                                            */
+/* ************************************************************************** */
 session_start();
 require_once("./class/class.user.php");
 $login = new USER();

@@ -1,4 +1,11 @@
 <?php
+/* ************************************************************************** */
+/*                                                                            */
+/*                 home.php for tracklist    	                                */
+/*                 Created on : Mon Nov 7 17:37:41 2016	                      */
+/*                 Made by : Tanguy "cerb3re" CHENIER 				                */
+/*                                                                            */
+/* ************************************************************************** */
 	require_once("./class/session.php");
 	require_once("./class/class.user.php");
 
