@@ -11,7 +11,7 @@ Coming soon:
 - Admin panel 
 <hr />
 <pre><code>
-#HOW TO:
+HOW TO:
 - Import:
 	 sql_input/dblogin.sql,
 	 sql_input/tracklist.sql
