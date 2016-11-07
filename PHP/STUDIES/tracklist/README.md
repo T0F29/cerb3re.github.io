@@ -8,9 +8,11 @@ Coming soon:
 - Paradigme Optimization
 - Refactoring
 - Image input gestion
-- Admin panel 
+- Image delete gestion
+- Global pannel track
+- Admin panel
 <hr />
-<pre><code>
+<code>
 HOW TO:
 - Import:
 	 sql_input/dblogin.sql,
@@ -18,4 +20,4 @@ HOW TO:
 - Configure:
 	./class/dbconfig.php with your proper data.
 - Launch your website
-</code></pre>
+</code>
