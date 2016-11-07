@@ -12,10 +12,10 @@ Coming soon:
 <hr />
 <pre><code>
 #HOW TO:
-1. Import:
+- Import:
 	 sql_input/dblogin.sql,
 	 sql_input/tracklist.sql
-2. Configure:
+- Configure:
 	./class/dbconfig.php with your proper data.
-3. Launch your website
+- Launch your website
 </code></pre>
