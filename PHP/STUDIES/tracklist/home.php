@@ -36,7 +36,7 @@
     <!-- begin of: Right menu Structure -->
       <nav id="rightMenu">
         <div id="titleNav">Input your track</div>
-        <form method="POST" enctype="multipart/form-data">
+					<form method="POST" action="home.php" enctype="multipart/form-data">
           <input type="text" placeholder="Your song Name" name="song" maxlength="25" id="btn"/>
           <!-- <input type="text" placeholder="Your song Style" name="style" id="btn"/> -->
           <select class="dropdown" id="btn" name="style">
@@ -51,7 +51,7 @@
           <!-- loading of the image -->
           <input type="file" name="img" id="btn"/>
           <!-- endOf image -->
-          <button id="send">Add Track</button>
+          <input type="submit" id="send" name="send" value="Add Track"/>
         </form>
 
         <br />

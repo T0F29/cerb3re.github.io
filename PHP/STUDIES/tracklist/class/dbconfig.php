@@ -2,9 +2,9 @@
 // just a test
 define('SQL_INIT', 'mysql:host=localhost; dbname=AFPA');
 //database Username
-define('SQL_USERNAME', 'test');
+define('SQL_USERNAME', 'root');
 //database Password
-define('SQL_PASSWORD', '');
+define('SQL_PASSWORD', 'poubelle');
 
 /* Website Definition */
 // Website name
@@ -22,10 +22,10 @@ catch(PDOException $e)
 <?php
 class Database
 {
-    private $host = "YOUR_HOST";
-    private $db_name = "YOUR_DATABASE";
-    private $username = "YOUR_USERNAME_DATABASE";
-    private $password = "YOUR_PASSWORD_DATABASE";
+    private $host = "localhost";
+    private $db_name = "AFPA";
+    private $username = "root";
+    private $password = "poubelle";
     public  $conn;
 
     public function dbConnection()

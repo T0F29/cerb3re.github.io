@@ -39,7 +39,7 @@
               <?php echo $printMenu['song']; ?>
         		</td>
         		<td>
-                 <img src="<?php echo $printMenu['img']; ?>" style="width:50%" />
+                 <img src="./upload/<?php echo $printMenu['img']; ?>" style="width:50%" />
                 <?php echo $printMenu['style']; ?>
         		</td>
         		<td>
@@ -112,7 +112,7 @@
                           </td>
                           <td>
                             <button id="btnModify" name="<?php echo $printMenu['id'] ?>">Modify Song</button>
-                          </td>        
+                          </td>
                         </tbody>
                       </table>
                     </div>
