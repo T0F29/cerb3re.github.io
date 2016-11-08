@@ -20,4 +20,3 @@ Coming soon:
 - Configure:
 	./class/dbconfig.php with your proper data.
 - Launch your website
-
