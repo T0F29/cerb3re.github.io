@@ -16,7 +16,7 @@ class USER
 	public function runQuery($sql)
 	{
 		$stmt = $this->conn->prepare($sql);
-		return $stmt;
+		return ($stmt);
 	}
 
 	public function register($uname,$umail,$upass)
@@ -24,14 +24,11 @@ class USER
 		try
 		{
 			$new_password = password_hash($upass, PASSWORD_DEFAULT);
-
 			$stmt = $this->conn->prepare("INSERT INTO users(user_name,user_email,user_pass)
-		                                               VALUES(:uname, :umail, :upass)");
-
+		                                VALUES(:uname, :umail, :upass)");
 			$stmt->bindparam(":uname", $uname);
 			$stmt->bindparam(":umail", $umail);
 			$stmt->bindparam(":upass", $new_password);
-
 			$stmt->execute();
 
 			return $stmt;
@@ -71,9 +68,7 @@ class USER
 	public function is_loggedin()
 	{
 		if(isset($_SESSION['user_session']))
-		{
 			return true;
-		}
 	}
 
 	public function redirect($url)
