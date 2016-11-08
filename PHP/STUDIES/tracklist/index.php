@@ -36,7 +36,7 @@ if(isset($_POST['btn-login']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Tracklist: Login</title>
-<link rel="stylesheet" href="./css/style.css" type="text/css"  />
+<link rel="stylesheet" href="./view/css/style.css" type="text/css"  />
 </head>
 <body>
 	<div id="top"><a href="sign-up.php" style="color: white;">[Register new profil]</a></div>
