@@ -7,8 +7,8 @@ integrate a playlist system, login & register system.
 Coming soon:
 - Paradigme Optimization
 - Refactoring
-- Image input gestion
-- Image delete gestion
+- Image input securisation
+- Image delete securisation
 - Global pannel track
 - Admin panel
 <hr />
